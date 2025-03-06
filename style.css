@@ -195,3 +195,27 @@
      transform: translateX(-50%);
  }
 
+ label .material-icons {
+     vertical-align: middle;
+     margin-left: 8px;
+     font-size: 20px;
+ }
+
+ /* For the "Back to Orange" button */
+ .layer:nth-child(2) label .material-icons {
+     margin-left: 0;
+     margin-right: 8px;
+ }
+
+
+ label.orange-label {
+     background-color: rgb(181, 235, 115);
+     color: black;
+     border: none;
+ }
+
+ label.pineapple-label {
+     background-color: rgb(255, 213, 159);
+     color: black;
+     border: none;
+ }
